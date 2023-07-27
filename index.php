@@ -1,10 +1,10 @@
 <?php
 
-$title = 'PHP is awesome';
+define('PREFIX', 'OPTION');
 
-define('WIDTH', '1140px');
+define(PREFIX . '_1', 1);
+define(PREFIX . '_2', 2);
+define(PREFIX . '_3', 3);
 
-require 'index.view.php';
-
-echo WIDTH;
+echo OPTION_1;
 
