@@ -1,10 +1,14 @@
 <?php
+function d($data)
+{
+    echo '<pre>';
+    var_dump($data);
+    echo '</pre>';
+}
 
-define('PREFIX', 'OPTION');
+$balance = 100;
+d($balance);
 
-define(PREFIX . '_1', 1);
-define(PREFIX . '_2', 2);
-define(PREFIX . '_3', 3);
-
-echo OPTION_1;
+$message = 'Insufficient balance';
+d($message);
 
