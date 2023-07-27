@@ -1,7 +1,4 @@
 <?php
 
-echo 'Hello world'; 
-$message = "Hello";
-echo $message;
-login( $message);
-?>
+$title = 'PHP is awesome!';
+require 'index.view.php';
